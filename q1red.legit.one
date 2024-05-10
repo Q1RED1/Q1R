@@ -1,12 +1,12 @@
 <pre style="caret-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; widows: auto; word-spacing: 0px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.3); -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; text-decoration: none; overflow-wrap: break-word; white-space: pre-wrap;">local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mapple7777/UI-Librarys/main/UI-1/UI.lua"))()
 
 
-local Window = Library:Create("Blazing","Lock")
+local Window = Library:Create("Q1REDHUB","Lock")
 local Tab1 = Window:Tab("Aimlocks",true)
 
 Tab1:Label("Aimlock")
 
-Tab1:Button("Blazing Aimlock",function(bool)
+Tab1:Button("Q1REDAimlock",function(bool)
     getgenv().AimPart = "HumanoidRootPart"
 	getgenv().AimlockKey = "q"
 	getgenv().AimRadius = 30
@@ -227,12 +227,12 @@ local Tab3 = Window:Tab("Player",false)
 Tab3:Label("Player Scripts")
 
 game.StarterGui:SetCore("SendNotification", {
-    Title = "Blazing Lock";
-    Text = "Welcome Just Press E";
-    Icon = "RBXID OR BLANK";
-    Duration = "DURATION IN SECONDS";
+    Title = "Q1RED Lock";
+    Text = "Welcome To Beta Q1REDS script";
+    Icon = "";
+    Duration = "5";
     callbakc = bindableFunction;
-    Button1 = "Okay";
+    Button1 = "Love You Pookie";
 })
 
 Tab3:Button("Realistic Speed Glitch (V)",function(bool)
@@ -378,6 +378,7 @@ local garbage = {
     "time to take out the trash";
     "did you get worse?";
     "I'm surprised you haven't quit yet";
+    "Dang you kinda bad fr";
 
 
 
@@ -434,7 +435,7 @@ end)
 local glitch = false
 local clicker = false
 
-Tab4:Textbox("Speed (use my suggestion 3 )","Speed",function(a)
+Tab4:Textbox("Speed","Speed",function(a)
 		
     getgenv().Multiplier = a
 
