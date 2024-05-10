@@ -113,13 +113,13 @@ getgenv().Lynx, getgenv().Visuals, getgenv().utility =
 	["LastTick"] = tick(), 
 	["ShitTalk"] = {
 		["Lynx"] = {
-			"WHAT THE HELL IS AN AZURE 🤡🤡",
-			"LYNX ONTOP LYNX ONTOP LYNX ONTOP",
-			"IS THAT LYNX???!! | .gg/lynx",
-			"Here is a wild lynx user in its habitat | .gg/lynx",
-			"LYNX >> ALL",
-			"LYNX ON TOP | .gg/lynx",
-			"LYNX > U",
+			"WHAT THE HELL IS A CROSSHAIR YOU SHOULD LEARN HOW TO USE ONE 🤡🤡",
+			"SEEDDDD",
+			"SONNED",
+			"DANG YOU KINDA BADD",
+			"L",
+			"HIT YO SHOTS",
+			"IM BETTER",
 			".gg/lynx"
 		},
 		["AntiAim"] = {
@@ -3650,7 +3650,7 @@ ui:SetupLoader({time = 2})
 --
 Wait(2)
 --
-local Window = ui:NewWindow{window = {Name = [[<b>osiris.<font color="rgb(220, 20, 60)">cool</font></b>]], Description = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name}, User = {Name = LocalPlayer.Name,Role = 'Buyer Build'}}
+local Window = ui:NewWindow{window = {Name = [[<b>q1redhub.<font color="rgb(220, 20, 60)">cool</font></b>]], Description = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name}, User = {Name = LocalPlayer.Name,Role = 'Buyer Build'}}
 local flags = Window.flags
 -- Functions , Renders 
 local Backtrack = Instance.new("Folder")
@@ -6793,4 +6793,4 @@ old = hookmetamethod(game, "__index", LPH_JIT(function(Self, Key)
 	return old(Self, Key)
 end))
 -- 
-ui:Notify{text = "osiris.cool has loaded in ".. Round(tostring(tick() - utility.LastTick)).. " seconds !", time = 5, style = "loading"}
+ui:Notify{text = "q1redhub has loaded in ".. Round(tostring(tick() - utility.LastTick)).. " seconds !", time = 5, style = "loading"}
