@@ -326,7 +326,7 @@ end
 
 -- Window
 
-local Actyrn = UiLib:CreateWindow("Azure Modded | Actyrn | .gg/hUvujCnGMb", Vector2.new(500, 600), Enum.KeyCode.RightShift)
+local Actyrn = UiLib:CreateWindow("QZXRED", Vector2.new(500, 600), Enum.KeyCode.RightShift)
 
 -- Tabs
 
