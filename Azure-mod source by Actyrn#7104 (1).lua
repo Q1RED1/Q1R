@@ -1,8 +1,3 @@
---Username
-if game.Players.LocalPlayer.Username== {"TheKings_Tower", "Username2", "Username3"} then
-
-print("Whitelisted")
-
 
 -- If ur gonna put in vault / showcase, pls don't put the source code directly or loadstring, put the discord
 
@@ -1474,8 +1469,3 @@ AntiCheatNamecall = hookmetamethod(game, "__namecall", newcclosure(function(Self
 
 	return AntiCheatNamecall(Self, ...)
 end))
-else
-
-game.Players.LocalPlayer:Kick("Not Whitelisted")
-
-end
