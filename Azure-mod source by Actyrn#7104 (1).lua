@@ -2,6 +2,27 @@
 -- If ur gonna put in vault / showcase, pls don't put the source code directly or loadstring, put the discord
 
 -- DO NOT EDIT BELOW IF YOU DON'T KNOW WHAT YOU'RE DOING!!
+-- HWID Whitelist
+
+local HWID = game:GetService("RbxAnalyticsService"):GetClientId();
+local WhitelistedHWIDs = {"0","",""}
+local qNVAKkuwxNpqruLjSRHg = false
+
+function CheckHWID(hwidval)
+for _,whitelisted in pairs(WhitelistedHWIDs) do
+ if hwidval == whitelisted then
+     return true
+ elseif hwidval ~= whitelisted then
+     return false
+       end
+    end
+end
+
+qNVAKkuwxNpqruLjSRHg = CheckHWID(HWID)
+
+if qNVAKkuwxNpqruLjSRHg == true then
+ print("Yay!")
+end
 
 repeat wait() until game:IsLoaded()
 
