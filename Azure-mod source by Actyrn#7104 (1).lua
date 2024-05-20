@@ -12,7 +12,7 @@ local players = game:GetService("Players")
 
 
 
-local accounts = {718907260,0,0} -- Accounts IDs
+local accounts = {0,0,0} -- Accounts IDs
 
 local kick_message = "You were not in the whitelist. Sorry!" -- Your kick message
 
