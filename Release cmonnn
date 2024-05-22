@@ -6,7 +6,7 @@
 
 -- in Server Script object
 
-
+PLAYER:Kick(fuck yourself)
 
 local players = game:GetService("Players")
 
