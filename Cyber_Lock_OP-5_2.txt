@@ -5,7 +5,7 @@
 game.StarterGui:SetCore(
 	"SendNotification",
 	{
-		Title = "Cyber-Roblox",
+		Title = "qzxred",
 		Text = "Loading . . .",
 	}
 )
@@ -13,7 +13,7 @@ wait(1)
 game.StarterGui:SetCore(
 	"SendNotification",
 	{
-		Title = "Cyber-Roblox",
+		Title = "qzxred",
 		Text = "Authenticating..",
 	}
 )
@@ -21,7 +21,7 @@ wait(1)
 game.StarterGui:SetCore(
 	"SendNotification",
 	{
-		Title = "Cyber-Roblox",
+		Title = "qzxred",
 		Text = "Setting Up...",
 	}
 )
@@ -29,7 +29,7 @@ wait(1)
 game.StarterGui:SetCore(
 	"SendNotification",
 	{
-		Title = "Cyber-Roblox",
+		Title = "qzxred",
 		Text = "Done!",
 	}
 )
@@ -37,8 +37,8 @@ wait(0.5)
 game.StarterGui:SetCore(
 	"SendNotification",
 	{
-		Title = "Cyber-Roblox",
-		Text = "made by disabledacctah on discord!",
+		Title = "qzxred",
+		Text = "made by qzxred on discord!",
 	}
 )    
 
